@@ -1,0 +1,36 @@
+#linear_gradient {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(180deg, red, blue);
+}
+
+#rainbow {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+#transparency{
+	width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom right, red, rgba(0,0,0,0));
+}
+
+#repeat_linear{
+	width: 200px;
+  height: 200px;
+  background-color: black;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 25px, red 25px, red 50px);
+}
+
+#radial_gradient{
+  width: 200px;
+  height: 200px;
+  background-image: radial-gradient(circle closest-corner at 100px 100px , red, blue);
+}
+
+#repeat_radial{
+  width: 200px;
+  height: 200px;
+  background: repeating-radial-gradient(black, black 5px, white 5px, white 20px);
+}
